@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+}
+.side-bar{
+    background-color: #fcc419;
+    width: 250px;
+    left: -250px;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    overflow-y: auto;
+    transition: 0.5s;
+    transition-property: left;
+}
+.active{
+    left: 0;
+}
+.side-bar header img{
+    width: 50px;
+}
+.menu{
+   position: absolute; 
+   cursor: pointer;
+   margin: 50px;
+}
+.close-btn{
+  
+    cursor: pointer;
+   
+ }
